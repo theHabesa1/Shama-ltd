@@ -8,4 +8,4 @@ This repository contains the source code for Shama ltd. Yared Abera and Yonas W 
 
 ## License
 
-This project is licensed under the shama site - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the Artistic license 2.0 - see the [LICENSE.md](LICENSE.md) file for details.
