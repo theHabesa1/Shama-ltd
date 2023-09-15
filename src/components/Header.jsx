@@ -48,7 +48,7 @@ const Header = () => {
                     color: '#233982',
                 }}
                 >
-                    We are your buisness partner through all !
+                   The past The present The future !
                 </Typography>
 
                 <Typography
