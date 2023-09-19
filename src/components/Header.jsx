@@ -2,12 +2,12 @@ import React from 'react'
 import { Box, Button, styled, Typography } from "@mui/material";
 import { Link } from 'react-router-dom'
 //img
-import headerImg from '../assets/pexels-binyamin-mellish-186078.png'
+import headerImg from '../assets/roundtables-1.gif'
 
 const Header = () => {
 
     const CustomBox = styled(Box) (({ theme }) => ({
-        minHeight: '80vh',
+        minHeight: '65vh',
         display: 'flex',
         justifyContent: 'center',
         // tamanhos
@@ -41,15 +41,18 @@ const Header = () => {
             component='section'
             >
                 <Typography
-                variant='h2'
-                component= 'h1'
-                sx={{
-                    fontWeight: 700,
-                    color: '#233982',
-                }}
-                >
-                   The past The present The future !
-                </Typography>
+  variant='h2'
+  component='h1'
+  sx={{
+    fontWeight: 700,
+    color: '#233982',
+  }}
+>
+  The past<br />
+  The present<br />
+  The future!
+</Typography>
+
 
                 <Typography
                 variant='p'
@@ -67,6 +70,8 @@ const Header = () => {
                 <Box>
                     <Button 
                     variant='contained'
+                    component={Link} 
+                    to={'/about'}
                     sx={{
                         mr: 2,
                         px: 4, 
@@ -85,7 +90,7 @@ const Header = () => {
                         }
                     }}
                     >
-                        Lets start !
+                        Explore !
                     </Button>
                     <Button 
                     component={Link} 
@@ -110,7 +115,7 @@ const Header = () => {
                         }
                     }}
                     >
-                        explore
+                        Lets Talk !
                     </Button>
                 </Box>
             </BoxText>
@@ -118,7 +123,7 @@ const Header = () => {
             <Box sx={theme => ({
                 [theme.breakpoints.down('md')]:{
                     flex: '1',
-                    paddingTop: '30px',
+                    paddingTop: '10px',
                     alignSelf: 'center',
                 },
                 [theme.breakpoints.up('md')]:{
@@ -131,8 +136,12 @@ const Header = () => {
                 src={headerImg}
                 alt="headerImg"
                 style={{ 
-                    width: "100%", 
-                    marginBottom: -15,
+                    width: "90%", 
+    
+                    paddingLeft:"100px",
+                    paddingTop:"-150px",
+                    marginTop:"-1000000px"
+
                 }}
                 />
             </Box>

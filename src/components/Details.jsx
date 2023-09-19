@@ -10,14 +10,17 @@ import Paragraph from './Paragraph'
 
 const Details = () => {
 
-    const handleSubmit = (event) => {
-        event.preventDefault();
-        const data = new FormData(event.currentTarget);
-        console.log({
-            email: data.get('email'),
-            phone: data.get('phone'),
-        });
-    }
+  
+    const handleSubmit = () => {
+        const email = 'info@shamalimited.com';
+        const subject = 'Subject of the email';
+        const body = 'Body of the email';
+    
+        const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    
+        window.location.href = mailtoLink;
+    };
+    
 
 
     return (

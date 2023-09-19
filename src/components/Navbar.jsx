@@ -58,14 +58,18 @@ const Navbar = () => {
         elevation={0}
         >
             <StyledToolbar>
-            <img
-  src={logo} // Assuming the assets folder is at the root level of your project
-  alt="HBSales Logo"
-  style={{
-    height: 'auto', // Adjust the height as needed to maintain the logo's aspect ratio
-    width: '50px', // Adjust the width as needed
-  }}
-/>
+            <a href="/" style={{ textDecoration: 'none', color: 'inherit' }}>
+    <img
+        src={logo}
+        alt="HBSales Logo"
+        style={{
+            height: 'auto',
+            width: '50px',
+            cursor: 'pointer', // Add a pointer cursor to indicate it's clickable
+        }}
+    />
+</a>
+
 
                 <Box sx={{display: { xs: 'block', sm: 'none' } }}>
                     <DrawerItem /> 

@@ -171,16 +171,19 @@ const Content = () => {
                             fontSize="large"
                             color="primary" />
                         </IconButton>
-                        <Typography 
-                        variant="h5" 
-                        component="p"
-                        sx={{
-                            fontWeight: 700,
-                            textTransform: 'capitalize',
-                        }}
-                        >
-                        Gazetta.com
-                        </Typography>
+                        <a href="https://gazettaa.com" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}>
+    <Typography 
+        variant="h5" 
+        component="p"
+        sx={{
+            fontWeight: 700,
+            textTransform: 'capitalize',
+        }}
+    >
+        Gazetta.com
+    </Typography>
+</a>
+
                     </CardContent>
                 </Card>
             </Grid>

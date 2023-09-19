@@ -51,16 +51,16 @@ const Footer = () => {
         text={'25 999-345-10800'} 
         />
         <FooterLink 
-        text={'info@housesales.com'} 
+        text={'info@shamalimited.com'} 
         />
       </StackColumn>
       
       <StackColumn>
         <FooterTitle text={'our services'} />
-        <FooterLink text={'buy house'} />
-        <FooterLink text={'sell house'} />
-        <FooterLink text={'rent house'} />
-        <FooterLink text={'build house'} />
+        <FooterLink text={'ERP System'} />
+        <FooterLink text={'QR menu'} />
+        <FooterLink text={'Gazettaa.com'} />
+        <FooterLink text={'Digital Marketing'} />
       </StackColumn>
       <StackColumn>
         <FooterTitle text={'our company'} />
