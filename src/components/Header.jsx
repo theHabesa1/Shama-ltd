@@ -48,9 +48,9 @@ const Header = () => {
     color: '#233982',
   }}
 >
-  The past<br />
-  The present<br />
-  The future!
+  The Past<br />
+  The Present<br />
+  The Future .
 </Typography>
 
 
@@ -63,8 +63,8 @@ const Header = () => {
                     color: '#233982',
                 }}
                 >
-                    We have 9000 more review and our customers
-                    trust on out property and quality products.
+                    Shama is a marketing company focused on digitalization and developing innovative solutions for other businesses. Shama is currently working with around 2000 restaurants in Addis Ababa by giving services on payment integration in collaboration with banks Customized QR menu presented with pictures taken by professional camera crew of the company. In addition to this creating digital solutions for the restaurants. 
+
                 </Typography>
 
                 <Box>
@@ -140,7 +140,7 @@ const Header = () => {
     
                     paddingLeft:"100px",
                     paddingTop:"-150px",
-                    marginTop:"-1000000px"
+                    
 
                 }}
                 />

@@ -15,6 +15,7 @@ import PoolOutlinedIcon from '@mui/icons-material/PoolOutlined';
 import WifiPasswordIcon from '@mui/icons-material/WifiPassword';
 import MenuBookIcon from '@mui/icons-material/MenuBook';
 import NewspaperIcon from '@mui/icons-material/Newspaper';
+import BoltIcon from '@mui/icons-material/Bolt';
 // components
 import Title from './Title'
 import Paragraph from './Paragraph'
@@ -50,14 +51,43 @@ const Content = () => {
                     paddingTop: 1,
                 }}
                 >
-                    Property facilities
+                    Our services !
                 </Typography>
 
                 <Paragraph 
                 text={
-                    ' We work with more than 100+ clients\
-                    and our customers trust on out quality\
-                    product and trust own our product.'
+                    ' * QR code system of digital menu\
+                   Cutomizable and fast loading ability\
+                    Imprinted on our own product.'
+                }
+                maxWidth = {'75%'}
+                mx={0}
+                textAlign={'start'}
+                />
+                <Paragraph 
+                text={
+                    ' * ERP system : managing respources of the enterprize\
+                   Making everyresource is accounted for with employee mangment\
+                    In a digital and fast way.'
+                }
+                maxWidth = {'75%'}
+                mx={0}
+                textAlign={'start'}
+                />
+                 <Paragraph 
+                text={
+                    ' * Portable and highly efficent power bank \
+                   On the go in a resturant and cafes\
+                    Built with high engneering and portability'
+                }
+                maxWidth = {'75%'}
+                mx={0}
+                textAlign={'start'}
+                />
+                 <Paragraph 
+                text={
+                    ' * Gazettaa.com is a digital platform incompasing \
+                    Every thing from news, to carsales, to bidding and more'
                 }
                 maxWidth = {'75%'}
                 mx={0}
@@ -129,31 +159,15 @@ const Content = () => {
                 </Card>
             </Grid>
 
-            <Grid item xs={12} sm={6} md={2}
-            sx={{
-                display: {xs: 'none', sm: 'block'},
-            }}  
-            >
-                <Card 
-                square={ true }
-                sx={{ 
-                    boxShadow: 'none',
-                    minHeight: 180,
-                    display: 'flex',
-                    flexDirection:'column',
-                    justifyContent: 'center',
-                    alignItems: 'center',
-                    textAlign: 'center',
-                }}>
-                    <CardContent>
-                        <ArrowCircleRightRoundedIcon
-                        fontSize="large"
-                        color="primary" />
-                    </CardContent>
-                </Card>
-            </Grid>
+          
 
-            <Grid item xs={12} sm={6} md={3}>    
+            <Grid item xs={32} sm={6} md={8}
+              sx={{
+                display: {xs: 'none', sm: 'block'},
+                paddingLeft:"655px",
+                marginTop:"-100px"
+            }}   
+            >    
                 <Card 
                 square={ true }
                 sx={{ 
@@ -163,7 +177,8 @@ const Content = () => {
                     justifyContent: 'center',
                     alignItems: 'center',
                     textAlign: 'center', 
-                    border: '1px solid #ccc'
+                    border: '1px solid #ccc',
+                    
                 }}>
                     <CardContent>
                         <IconButton>
@@ -188,7 +203,11 @@ const Content = () => {
                 </Card>
             </Grid>
 
-            {/* <Grid item xs={12} sm={6} md={3}>
+            <Grid item xs={12} sm={6} md={3}
+             sx={{
+                marginTop:"-100px"
+            }} 
+            >
                 <Card 
                 square={ true }
                 sx={{ 
@@ -203,7 +222,7 @@ const Content = () => {
                 >
                     <CardContent>
                         <IconButton>
-                            <PoolOutlinedIcon 
+                            <BoltIcon 
                             fontSize="large"
                             color="primary" />
                         </IconButton>
@@ -215,11 +234,11 @@ const Content = () => {
                             textTransform: 'capitalize',
                         }}
                         >
-                        swimming pool
+                        Power Bank
                         </Typography>
                     </CardContent>
                 </Card>
-            </Grid> */}
+            </Grid>
 
             {/* <Grid item xs={12} sm={6} md={3}>
                 <Card 

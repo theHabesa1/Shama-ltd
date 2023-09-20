@@ -45,10 +45,10 @@ const Footer = () => {
       <StackColumn>
         <FooterTitle text={'address'} />
         <FooterLink 
-        text={'15th Louis St, london 92382, eng'} 
+        text={'Bole Grace plaza, Addis Abeba'} 
         />
         <FooterLink 
-        text={'25 999-345-10800'} 
+        text={'09 11 06 94 28'} 
         />
         <FooterLink 
         text={'info@shamalimited.com'} 
